@@ -124,6 +124,26 @@ There are many functions in the program as functional programming style is used.
   ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
 * Below figures shows comparison of my model with other authors who worked previously in this area of emotion recognition from speech
   ![comparison](https://user-images.githubusercontent.com/13017779/127533006-fac626bf-8bda-4bac-bbbb-fb72ef291f0a.png)
+  
+# Installation 
+
+To download and run my google colab file 1130532_ResearchMethodology_Project_Final.ipynb following changes need to be made:
+* Changes paths and give appropriate paths in the functions ravdess_data(), crema_data(), tess_data(), saveee_data(), fetch_data(), Audio_features_extract(),     
+  audio_features_final(), emotion_recognition_model(), test_realtime(), evaluate_model(), unknown_audio() and diff_lang_test()
+* If one dosent want to train the model just test the model then they can use the model file "emotion-recognition.hdf5", change paths in test_realtime() function   and they can test the model. 
+* If you want to develop or implement or setupt at the whole code then as mentioned give proper paths and run all the functions its done.
+* The main() function does all the work of training the model and evaluating the model. Once the main function completes running the model is file is generated     and can used for real time testing.
+
+# usage 
+* Once the model is trained and model file is generated one can use the test_realtime() function, this function invokes the microphone of the user records the       speech of the user, extracts the audio features and passes it to the emotion recognition model, then model predicts the emotions and displays it to the use.
+* Before calling realtime_tested() function we call this function audio_features_final() which gives seven outputs out of which encoder output is important as it   contains the label (emotion) to number mapping.
+* Functions to be called to test the model in real time enviourment
+  ```
+  x_train, x_test, y_train, y_test, x_val, y_val, encoder = audio_features_final()
+  test_realtime(encoder)
+  ```
+* Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two   functions are dependent on them.
+  
 
 
 
