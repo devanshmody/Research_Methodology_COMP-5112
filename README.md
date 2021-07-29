@@ -72,14 +72,14 @@ I have used four datasets and all four datasets are freely available to download
    {'a':'anger','d':'disgust','f':'fear','h':'happiness','n':'neutral','sa':'sadness','su':'surprise'}
 
 ## Universal decorator fucntion to calculate total time
-def calc_time(func):
+'''def calc_time(func):
   def inner(*args, **kwargs):
     st = time.time()
     result = func(*args,**kwargs)
     end = time.time()-st
     print("Total time required: {:.3f} ms".format(end * 1000))
     return result
-  return inner
+  return inner'''
 
 
 
