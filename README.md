@@ -122,6 +122,9 @@ There are many functions in the program as functional programming style is used.
 * Additionally to check wheather the model can on all types of voices and on unlabeled data a test was carried out using combination of different voices and 
   unlabled data. Below figure shows the results.
   ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
+* Below figures shows comparison of my model with other authors who worked previously in this area of emotion recognition from speech
+  ![comparison](https://user-images.githubusercontent.com/13017779/127533006-fac626bf-8bda-4bac-bbbb-fb72ef291f0a.png)
+
 
 
 
