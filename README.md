@@ -18,17 +18,19 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://numpy.org/"><img src="https://img.shields.io/badge/numpy-skyblue?style=flat&logo=numpy&labelColor=skyblue"></a>
 <a href="https://www.tensorflow.org/"><img src="https://img.shields.io/badge/tensorflow-orange?style=flat&logo=tensorflow&labelColor=orange"></a>
 <a href="https://docs.python.org/3/library/os.html"><img src="https://img.shields.io/badge/os-lightyellow?style=flat&logo=os&labelColor=lightyellow"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg-green?style=flat&logo=ffmpeg&labelColor=green"></a>
+<a href="https://docs.python.org/3/library/time.html"><img src="https://img.shields.io/badge/time-lightgreen?style=flat&logo=time&labelColor=lightgreen"></a>
+<a href="https://librosa.org/"><img src="https://img.shields.io/badge/librosa-pink?style=flat&logo=librosa&labelColor=pink"></a>
+<a href="https://docs.python.org/3/library/warnings.html"><img src="https://img.shields.io/badge/warnings-lightred?style=flat&logo=warings&labelColor=lightred"></a>
+<a href="https://docs.python.org/3/library/glob.html"><img src="https://img.shields.io/badge/glob-lightgrey?style=flat&logo=glob&labelColor=lightgrey"></a>
+<a href="https://docs.python.org/3/library/re.html"><img src="https://img.shields.io/badge/regex-darkgreen?style=flat&logo=regex&labelColor=darkgreen"></a>
+<a href="https://scikit-learn.org/stable/"><img src="https://img.shields.io/badge/scikit-learn-darkorange?style=flat&logo=scikit-learn&labelColor=darkorange"></a>
+<a href="https://keras.io/"><img src="https://img.shields.io/badge/keras-darkred?style=flat&logo=keras&labelColor=darkred"></a>
+<a href="https://colab.research.google.com/notebooks/intro.ipynb?utm_source=scs-index#recent=true"><img src="https://img.shields.io/badge/google colab-orange?style=flat&logo=google colab&labelColor=orange"></a>
+<a href="https://www.scipy.org/"><img src="https://img.shields.io/badge/scipy-navyblue?style=flat&logo=scipy&labelColor=navyblue"></a>
+<a href="https://docs.python.org/3/library/io.html"><img src="https://img.shields.io/badge/io-grey?style=flat&logo=io&labelColor=grey"></a>
+<a href="https://ipython.org/"><img src="https://img.shields.io/badge/ipython-cayn?style=flat&logo=ipython&labelColor=cayn"></a>
+<a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-brown?style=flat&logo=matplotlib&labelColor=brown"></a>
+
 
 
 
