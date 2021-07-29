@@ -33,6 +33,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-brown?style=flat&logo=matplotlib&labelColor=brown"></a>
 <a href="https://www.python.org/doc/"><img src="https://img.shields.io/badge/python3-yellow?style=flat&logo=python3&labelColor=yellow"></a>
 ![programming style](https://img.shields.io/badge/programming%20style-functional-brightgreen)
+![programming language](https://img.shields.io/badge/programming%20language-python-red)
 
 
 
