@@ -31,7 +31,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://ipython.org/"><img src="https://img.shields.io/badge/ipython-purple?style=flat&logo=ipython&labelColor=purple"></a>
 <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-brown?style=flat&logo=matplotlib&labelColor=brown"></a>
 <a href="https://www.python.org/doc/"><img src="https://img.shields.io/badge/python3-yellow?style=flat&logo=python3&labelColor=yellow"></a>
-
+![programming style](https://img.shields.io/badge/programming%20style-functional-brightgreen)
 
 
 
@@ -42,6 +42,8 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://www.youtube.com/channel/UCtc_46TMSXPUMpzVP0IAJUw"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 <a href="https://www.instagram.com/devansh_mody/?hl=en"><img src="https://img.shields.io/badge/instagram-purple?style=flat&logo=instagram&labelColor=pink"></a>
 <a href="https://devanshmody.blogspot.com/"><img src="https://img.shields.io/badge/My bloging website-yellow?style=flat&logo=blog&labelColor=lightyellow"></a>
+
+
 
 
 
