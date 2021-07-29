@@ -13,6 +13,8 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 ![languages](https://img.shields.io/github/languages/count/devanshmody/Research_Methodology_COMP-5112)
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
 <a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
+<a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
+<a href="https://www.youtube.com/channel/UCtc_46TMSXPUMpzVP0IAJUw"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 
 
 
