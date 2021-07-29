@@ -97,8 +97,11 @@ There are many functions in the program as functional programming style is used.
   ![model training snap shot](https://user-images.githubusercontent.com/13017779/127520834-e0b9fb86-2a60-4eed-a089-f28f5a028a48.png)
 
 # Description of testing model in real time:
-
-
+* The data for real time model testing is recorded using the microphone.
+* The code to record audio speech using microphone is integrated from this link "https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_     colab/".
+* Then features are extracted from speech and passed to emotion recognition model which predicts one of the six emotions.
+* Below figure shows the audio waveform and output of the emotion recognition model. 
+ ![realtimeresult](https://user-images.githubusercontent.com/13017779/127523138-12df54f8-6af3-4907-9e80-56354bba12b8.png)
 
 
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
