@@ -26,7 +26,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://docs.python.org/3/library/re.html"><img src="https://img.shields.io/badge/regex-darkgreen?style=flat&logo=regex&labelColor=darkgreen"></a>
 <a href="https://scikit-learn.org/stable/"><img src="https://img.shields.io/badge/scikit-learn-darkorange?style=flat&logo=scikit-learn&labelColor=darkorange"></a>
 <a href="https://keras.io/"><img src="https://img.shields.io/badge/keras-darkred?style=flat&logo=keras&labelColor=darkred"></a>
-<a href="https://www.scipy.org/"><img src="https://img.shields.io/badge/scipy-navyblue?style=flat&logo=scipy&labelColor=navyblue"></a>
+<a href="https://www.scipy.org/"><img src="https://img.shields.io/badge/scipy-violet?style=flat&logo=scipy&labelColor=violet"></a>
 <a href="https://docs.python.org/3/library/io.html"><img src="https://img.shields.io/badge/io-grey?style=flat&logo=io&labelColor=grey"></a>
 <a href="https://ipython.org/"><img src="https://img.shields.io/badge/ipython-purple?style=flat&logo=ipython&labelColor=purple"></a>
 <a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-brown?style=flat&logo=matplotlib&labelColor=brown"></a>
