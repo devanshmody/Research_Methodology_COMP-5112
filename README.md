@@ -92,6 +92,11 @@ There are many functions in the program as functional programming style is used.
 * Item3 The csv file is loaded using pandas additional_preprocess() function carries out Exploratory Data Analysis and drop emotions with limited samples to avoid   missclassifications and then dataset is divided into train, test and validation set.
 * Item4 Below image gives the detailed description of the whole process.
   ![Explorator Data Analysis and data preprocessing](https://user-images.githubusercontent.com/13017779/127515420-232f3180-34df-4531-8e34-93225748a0a6.png)
+* Item5 Deep learning model for speech recognition is trained using the training data and at every epoch or checkpoint validation accuracy is calucated. The epoch   or checkpoint which gives highest validation accuracy the model is saved for that epoch or checkpoint at path " /content/drive/ MyDrive/Audiofiles/       
+  emotionrecognition.hdf5", the model giving highest validation accuracy is only saved.
+  ![model training snap shot](https://user-images.githubusercontent.com/13017779/127520834-e0b9fb86-2a60-4eed-a089-f28f5a028a48.png)
+
+# Description of testing model in real time:
 
 
 
