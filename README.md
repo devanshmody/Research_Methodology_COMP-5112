@@ -71,7 +71,7 @@ I have used four datasets and all four datasets are freely available to download
    Similarly different emotion mappings are:<br>
    {'a':'anger','d':'disgust','f':'fear','h':'happiness','n':'neutral','sa':'sadness','su':'surprise'}
 
-## Universal decorator fucntion to calculate total time
+# Universal decorator fucntion to calculate total time
 ```
 def calc_time(func):
   def inner(*args, **kwargs):
