@@ -1,3 +1,3 @@
 # Research_Methodology_COMP-5112
-This repository contains my research work for the course research methodology. \n
+This repository contains my research work for the course research methodology. <br>
 The research work carried out is in the area of emotion recognition from the speech.
