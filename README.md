@@ -13,7 +13,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 
 # Libraries and coding language used for the project
 ![languages](https://img.shields.io/github/languages/count/devanshmody/Research_Methodology_COMP-5112)
-<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg?style=flat&logo=ffmpeg&labelColor=green"></a>
+<a href="http://ffmpeg.org/"><img src="https://img.shields.io/badge/ffmpeg?style=flatColor=green"></a>
 
 
 
