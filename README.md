@@ -83,6 +83,17 @@ def calc_time(func):
   return inner
 ```
 
+# Description of important functions present in code (Model design and evaluation):
+
+There are many functions in the program as functional programming style is used. Here I am going to describe few important functions which call other functions inside the functions and generate files and results. Detailed description of each function and its use can be found in code.
+* Item1 Audio_features_extract() this function is used to extract audio features and generates a csv file at path "/content/drive/MyDrive/Audiofiles         /Audio_features_All_pr.csv" which contains audio features and their respective label information.
+* Item2 Below given image shows snapshot of the csv file the file has total of 33954 rows × 179 columns.
+  ![csv file snapshot](https://user-images.githubusercontent.com/13017779/127515316-3c4e2752-e376-4e71-ad76-513cec61bf1d.png)
+* Item3 The csv file is loaded using pandas additional_preprocess() function carries out Exploratory Data Analysis and drop emotions with limited samples to avoid   missclassifications and then dataset is divided into train, test and validation set.
+* Item4 Below image gives the detailed description of the whole process.
+  ![Explorator Data Analysis and data preprocessing](https://user-images.githubusercontent.com/13017779/127515420-232f3180-34df-4531-8e34-93225748a0a6.png)
+
+
 
 
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
