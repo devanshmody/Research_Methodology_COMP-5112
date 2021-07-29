@@ -21,7 +21,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://docs.python.org/3/library/time.html"><img src="https://img.shields.io/badge/time-lightgreen?style=flat&logo=time&labelColor=lightgreen"></a>
 <a href="https://librosa.org/"><img src="https://img.shields.io/badge/librosa-pink?style=flat&logo=librosa&labelColor=pink"></a>
 <a href="https://docs.python.org/3/library/warnings.html"><img src="https://img.shields.io/badge/warnings-lightred?style=flat&logo=warings&labelColor=lightred"></a>
-<a href="https://docs.python.org/3/library/base64.html"><img src="https://img.shields.io/badge/base64-grey?style=flat&logo=base64&labelColor=grey"></a>
+<a href="https://docs.python.org/3/library/base64.html"><img src="https://img.shields.io/badge/base64-lightgrey?style=flat&logo=base64&labelColor=lightgrey"></a>
 <a href="https://pypi.org/project/google-colab/"><img src="https://img.shields.io/badge/google-colab-lightorange?style=flat&logo=google-colab&labelColor=lightorange"></a>
 <a href="https://docs.python.org/3/library/glob.html"><img src="https://img.shields.io/badge/glob-lightgrey?style=flat&logo=glob&labelColor=lightgrey"></a>
 <a href="https://docs.python.org/3/library/re.html"><img src="https://img.shields.io/badge/regex-darkgreen?style=flat&logo=regex&labelColor=darkgreen"></a>
