@@ -35,7 +35,24 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 ![programming style](https://img.shields.io/badge/programming%20style-functional-brightgreen)
 ![programming language](https://img.shields.io/badge/programming%20language-python-red)
 
+# Dataset description
 
+I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.<br>
+1) Ravdess data description:
+   dataset link to download: "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio" <br>
+   dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"<br>
+   dataset contains sub folders and file names as example in numbers format 03-01-01-01-01-01-01.wav.<br>
+   Actor (01 to 24. Odd numbered actors are male, even numbered actors are female)<br>
+   So based on the number there is a identifier for each number and its meaning as follows:<br>
+   * Item1 Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
+   * Item2 Vocal channel (01 = speech, 02 = song).
+   * Item3 Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
+   * Item4 Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
+   * Item5 Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
+   * Item Repetition (01 = 1st repetition, 02 = 2nd repetition).
+   Therefore file 03-01-01-01-01-01-01.wav can be deduced as 03=audio-only,01=speech,01=neutral,01=normal,01=statement kids and 01=1st repetition
+  
+   
 
 
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
