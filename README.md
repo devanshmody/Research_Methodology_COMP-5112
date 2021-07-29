@@ -38,7 +38,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 # Dataset description
 
 I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.<br>
-1) Ravdess data description:
+1) Ravdess dataset description:
    dataset link to download: "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio" <br>
    dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"<br>
    dataset contains sub folders and file names as example in numbers format 03-01-01-01-01-01-01.wav.<br>
@@ -49,10 +49,22 @@ I have used four datasets and all four datasets are freely available to download
    * Item3 Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
    * Item4 Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
    * Item5 Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
-   * Item Repetition (01 = 1st repetition, 02 = 2nd repetition).
-   Therefore file 03-01-01-01-01-01-01.wav can be deduced as 03=audio-only,01=speech,01=neutral,01=normal,01=statement kids and 01=1st repetition
-  
+   * Item Repetition (01 = 1st repetition, 02 = 2nd repetition).<br>
+   Therefore file 03-01-01-01-01-01-01.wav can be deduced as 03=audio-only,01=speech,01=neutral,01=normal,01=statement kids and 01=1st repetition.<br>
    
+2) CREMA-D dataset description:
+   dataset link to download: "https://www.kaggle.com/ejlok1/cremad" <br>
+   dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/AudioWAV/"<br>
+   The format of files is 1001_DFA_ANG_XX.wav, where ANG stands for angry emotion.<br> 
+   similarly different emotion mappings are as follows:
+   {'SAD':'sad','ANG':'angry','DIS':'disgust','FEA':'fear','HAP':'happy','NEU':'neutral'}
+   
+   
+
+
+
+
+
 
 
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
