@@ -103,6 +103,49 @@ There are many functions in the program as functional programming style is used.
 * Below figure shows the audio waveform and output of the emotion recognition model. 
  ![realtimeresult](https://user-images.githubusercontent.com/13017779/127523138-12df54f8-6af3-4907-9e80-56354bba12b8.png)
 
+# Results 
+* Below figure shows the training, testing and validation accuracy achieved by the emotion recognition model
+  ![accuracy](https://user-images.githubusercontent.com/13017779/127524338-0209ab4e-eb82-4244-b519-e25cb4838859.png)
+* Below figure shows the classification report and it can be seen in the report that for all the classes the value is greater than 0.5 which means the model can   
+  predict the emotions accuratly to some extent. If the value is equal to 1.0 for all clases then it means model can predict accurrately always given the input   
+  speech. But its diffcult to achieve real time prediction and 100% accuracy on real time envoiurment as there is noise and many other factors which can affect   
+  the output. Given a challenge it can overcomed by training with big set of data in different languages to develop a universal model.
+  ![classification](https://user-images.githubusercontent.com/13017779/127525847-6d2816a7-2e8b-4a3a-8385-e9c7a63bb870.png)
+* The 0,1,2,3,4,5 in classification report resembles to different emotions which can be decoded from below image.
+  ![emotionsmapping](https://user-images.githubusercontent.com/13017779/127526209-2d8748ca-2d99-4f70-ae11-1da5371cce61.png)
+* below figure shows output of confusion matrix.
+  ![confumatrix](https://user-images.githubusercontent.com/13017779/127526415-1aca3e8f-32f7-44ac-bf34-fea0fd412209.png)
+* below figure shows the training loss and accuracy curves despite the model giving and training accuracy of 100%, training and testing accuracy is near to    
+  75%-76% but compared to the research work my model gives highest accuracy compared to those of the authors who carried out research work previously in this  
+  area.
+  ![curves](https://user-images.githubusercontent.com/13017779/127526942-9432d473-e6cc-4ef6-9a77-958ea56f3af0.png)
+* Additionally to check wheather the model can on all types of voices and on unlabeled data a test was carried out using combination of different voices and 
+  unlabled data. Below figure shows the results.
+  ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
 <a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
