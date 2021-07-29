@@ -28,8 +28,8 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 <a href="https://keras.io/"><img src="https://img.shields.io/badge/keras-darkred?style=flat&logo=keras&labelColor=darkred"></a>
 <a href="https://www.scipy.org/"><img src="https://img.shields.io/badge/scipy-navyblue?style=flat&logo=scipy&labelColor=navyblue"></a>
 <a href="https://docs.python.org/3/library/io.html"><img src="https://img.shields.io/badge/io-grey?style=flat&logo=io&labelColor=grey"></a>
-<a href="https://ipython.org/"><img src="https://img.shields.io/badge/ipython-cayn?style=flat&logo=ipython&labelColor=cayn"></a>
-<a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-lightbrown?style=flat&logo=matplotlib&labelColor=lightbrown"></a>
+<a href="https://ipython.org/"><img src="https://img.shields.io/badge/ipython-purple?style=flat&logo=ipython&labelColor=purple"></a>
+<a href="https://matplotlib.org/"><img src="https://img.shields.io/badge/matplotlib-brown?style=flat&logo=matplotlib&labelColor=brown"></a>
 
 
 
