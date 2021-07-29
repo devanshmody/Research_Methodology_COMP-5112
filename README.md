@@ -11,7 +11,7 @@ Most of the smart devices or voice assistants or robots exsisting in the world a
 There are tonnes of applicates based on one can imagine. Few applications based on my thinking are human computer interaction using voice, Hhome automation,  anger/stress management by decoding emotions from voice, emotion recognition can help in detecting fear and cops can used this system to check if dialer is feared by some one or its just a normal call to register a complain, Marketing companies can use emotions to sell products based on user mood, autonomus vehicles can detect user emotion and adjust the speed of vehicles, It can help in solving psychological or depression problems. These are few applications according to me but there can be many more as voice based systems are increasing, even voice bsed chatting is common on social media platforms like clubhouse, discord, twitch, and others.
 
 ![languages](https://img.shields.io/github/languages/count/devanshmody/Research_Methodology_COMP-5112)
-<a href="https://in.linkedin.com/in/devansh-mody-5013aaab", src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
+<a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
 
 
 
