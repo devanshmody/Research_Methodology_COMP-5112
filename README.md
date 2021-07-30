@@ -1,4 +1,4 @@
-# Emotion Recognition From Speech
+# Emotion Recognition From Speech (V1.0)
 
 The understanding of emotions from voice in a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In this research work based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. First audio features are extracted from input speech then those features are passed to the emotion recognition model which predicts one of the six emotion for the given input speech.
  ![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)
@@ -143,39 +143,36 @@ To download and run my google colab file 1130532_ResearchMethodology_Project_Fin
   test_realtime(encoder)
   ```
 * Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two   functions are dependent on them.
-  
 
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
+# Support / Contact details
+Given below are few of my social media accounts where anyone can contact me.<br>
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
-<a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
 <a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
 <a href="https://www.youtube.com/channel/UCtc_46TMSXPUMpzVP0IAJUw"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 <a href="https://www.instagram.com/devansh_mody/?hl=en"><img src="https://img.shields.io/badge/instagram-purple?style=flat&logo=instagram&labelColor=pink"></a>
 <a href="https://devanshmody.blogspot.com/"><img src="https://img.shields.io/badge/My bloging website-yellow?style=flat&logo=blog&labelColor=lightyellow"></a>
+<br>one can also contact me by mailing on my gmail id devanshmody2017@gmail.com<br>
+For access to my google drive to see the setup of the whole project mail me on gmail idmentioned above access will be given to the selected people for some amount of time.
+
+# Road-map (future ideas)
+
+The backgorund noise may cause errors when testing the model in real time enviourment and thus it can affect the output of the model. To avoid the noise audio segmentation needs to be performed, so I am planning to develop an audio segmentation model which can seprate user speech from background noise so emotions can be predicted accurately. Also I will be collecting audio in different formats extract features and train the model so a universal model can be developed. Once audio model is build it can be applied to video also by combining audio model of emotion recognition with facial  model for emotion recognition this can help in acheving more accurate output. Additionally three models can be combined that is textual, voice and facial based but it requires huge computation power but can give a better output. Moreover I would like to build a audionet kind of embeddings similar to imagenet and word embeddings which will help other researchers working in this area to use pretrained audio embeddings.
+
+# How to contribute
+
+One can contribute by extracting features from different auido files the code for extracting features can be used from my ipynb file, different dataset may reqire different data preprocessing so one also write a function for data preprocessing and send me both prerporcessing code and csv file, so I can integrate both data preprocessing function and csv file with my csv file Audio_features_All_pr.csv. Additionally I am planning to build three model audio segmentation model, facial emotion recognition model and textual model so one can contribute by writing the function for the same and integrate it. Send me a git merge request to integrate code or contact me so we can check the integrity of code and combine the code.
+
+# Authors / Acknowledgements
+
+[1] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review of Physical and Perceptual Feature Extraction Techniques for Speech, Music and Environmental Sounds”, Appl. Sci. 2016.[2] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.<br>
+[3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
+[4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
+[5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
+[6] https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/<br>
+[7] https://keras.io/examples/audio/speaker_recognition_using_cnn/<br>
+[8] https://librosa.org/doc/main/feature.html<br>
+
+# License 
 
 
 
