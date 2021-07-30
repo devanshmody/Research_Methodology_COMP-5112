@@ -174,6 +174,11 @@ One can contribute by extracting features from different auido files the code fo
 
 # License 
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# Project Status
+
+Emotion recognition model is ready and can be used in real time. The ipynb file can be downloaded and used by providing necesarry path changes. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.
 
 
 
