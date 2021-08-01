@@ -233,28 +233,103 @@ function and they can test the model.
 * This is all about installation, building the model and feature extraction are one time process, once completed model is deployed in real time enviourment for testing and using the model for recognizing emotions from speech.
 
 # usage 
-* Once the model is trained and model file is generated one can use the test_realtime() function, this function invokes the microphone of the user records the       speech of the user, extracts the audio features and passes it to the emotion recognition model, then model predicts the emotions and displays it to the use.
-* Before calling realtime_tested() function we call this function audio_features_final() which gives seven outputs out of which encoder output is important as it   contains the label (emotion) to number mapping.
-* Functions to be called to test the model in real time enviourment
-  ```
-  x_train, x_test, y_train, y_test, x_val, y_val, encoder = audio_features_final()
-  test_realtime(encoder)
-  ```
-* Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two   functions are dependent on them.
 
+* As mentioned in the installation process, once libraries, datasets are downloaded, proper path information is given functions should be run in a sequence as mentioned in the colab file.
+* Following are the functions that required to run and the sequence is same as mentioned below and in the colab file
+* Remeber that every function requires amount of time to complete the process so.
+* Following is the list of sequence of functions which are required to run after running the import libraries code cell section:
+  * Universal python decorator function to calculate total time.
+    ```
+    def calc_time(func)
+    ```
+  * Data preprocessing functions 
+    ``` 
+    def ravdess_data()
+    def crema_data()
+    def tess_data()
+    def saveee_data()
+    def fetch_data()
+    ```
+   * Data augmentation functions
+    ```
+    def noise(data)
+    def stretch(data, rate=0.8)
+    def shift(data)
+    def pitch(data, sampling_rate, pitch_factor=0.7)
+    ```
+   * Below given functions are for feature extraction, run this functions only once as it requires time to extract features form auido. Also features extraction is a one time process. Once features are extracted we can carry out further processing and train the emotion recognition model. 
+    ```
+    def extract_features(data,sample_rate)
+    def get_features(path)
+    def Audio_features_extract()
+    ```
+   * function to plot loss and accuracy curves
+    ```
+    def plotgraph(history)
+    ```
+   * Function to perform additional preprocessing on data and splitting the datasets.
+     ```
+     def additional_preprocess(filepath)
+     def audio_features_final()
+     ```
+   * function to build the emotion recognition model
+     ```
+     def emotion_recognition_model(x_train,y_train,x_val,y_val)
+     ```
+   * Run the full javascript template starting with 
+     ```
+     #this javascript is used to tell colab cell to open microphone and record audio
+     AUDIO_HTML = """
+     <script>
+     ```
+   * function to invoke microphone of user and record audio
+     ```
+     def get_audio()
+     ```
+   * function for getting input speech features and real time testing
+     ```
+     def get_features_recorded(data,sr)
+     def test_realtime(encoder)
+     ```
+   * function to evaluate the performance of the model
+     ```
+     def evaluate_model(x_train, x_test, y_train, y_test, x_val, y_val)
+     ```
+   * main() function calls the functions in a sequence and after the execution of the main() function the deepl learning model for emotion recognition is ready.
+    ```
+    @calc_time
+    def main():
+      #get train,test data and labels 
+      x_train, x_test, y_train, y_test, x_val, y_val, encoder = audio_features_final()
+      #call the emotion recognition model
+      emotion_recognition_model(x_train,y_train,x_val,y_val)
+      #evaluate the model performance
+      evaluate_model(x_train, x_test, y_train, y_test, x_val, y_val)
+   if __name__:main()
+   ```
+   * Once the model is trained and model file is generated one can use the below fucntions to test the model in real time enviourment.
+     ```
+     x_train, x_test, y_train, y_test, x_val, y_val, encoder = audio_features_final()
+     test_realtime(encoder)
+     ```
+   * If some one wants to used my trained model file directly then no need to run the main() function just run the above given two function to test in the real time enviourment.
+   * Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two functions are dependent on them.
+   * Make sure all functions are called properly as mentioned in my colab file 
+   
 # Support / Contact details
+
 Given below are few of my social media accounts where anyone can contact me.<br>
 <a href="https://in.linkedin.com/in/devansh-mody-5013aaab"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a>
 <a href="https://mobile.twitter.com/modydevansh"><img src="https://img.shields.io/badge/twitter-blue?style=flat&logo=twitter&labelColor=blue"></a>
 <a href="https://www.youtube.com/channel/UCtc_46TMSXPUMpzVP0IAJUw"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 <a href="https://www.instagram.com/devansh_mody/?hl=en"><img src="https://img.shields.io/badge/instagram-purple?style=flat&logo=instagram&labelColor=pink"></a>
 <a href="https://devanshmody.blogspot.com/"><img src="https://img.shields.io/badge/My bloging website-yellow?style=flat&logo=blog&labelColor=lightyellow"></a>
-<br>one can also contact me by mailing on my gmail id devanshmody2017@gmail.com<br>
-For access to my google drive to see the setup of the whole project mail me on gmail idmentioned above access will be given to the selected people for some amount of time.
+<br>One can also contact me by mail on my gmail id <devanshmody2017@gmail.com><br>
+For access to my google drive to see the setup of the whole project mail me on gmail id mentioned above access will be given to the selected people for some amount of time.
 
 # Road-map (future ideas)
 
-The backgorund noise may cause errors when testing the model in real time enviourment and thus it can affect the output of the model. To avoid the noise audio segmentation needs to be performed, so I am planning to develop an audio segmentation model which can seprate user speech from background noise so emotions can be predicted accurately. Also I will be collecting audio in different formats extract features and train the model so a universal model can be developed. Once audio model is build it can be applied to video also by combining audio model of emotion recognition with facial  model for emotion recognition this can help in acheving more accurate output. Additionally three models can be combined that is textual, voice and facial based but it requires huge computation power but can give a better output. Moreover I would like to build a audionet kind of embeddings similar to imagenet and word embeddings which will help other researchers working in this area to use pretrained audio embeddings.
+<p align="justify">The backgorund noise may cause errors when testing the model in real time enviourment and thus it can affect the output of the model. To avoid the noise audio segmentation needs to be performed, so I am planning to develop an audio segmentation model which can seprate user speech from background noise so emotions can be predicted accurately. Also I will be collecting audio in different formats extract features and train the model so a universal model can be developed. Once audio model is build it can be applied to video also by combining audio model of emotion recognition with facial model for emotion recognition, this can help in acheving more accurate output. Additionally three models can be combined that is textual, voice and facial based but it requires huge computation power and there is very limited study available on combining three models for emotion recogniton, beaucse a avoting mechanism or strategy needs to be developed for predicting the emotion from three models as there can be cases where each model can predict different emotions or two model predict same emotion and one predicts another emotion. Moreover I would like to build a audionet kind of embeddings similar to imagenet and word embeddings which will help other researchers working in this area to use pretrained audio embeddings.
 
 # How to contribute
 
