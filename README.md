@@ -1,6 +1,6 @@
 # Emotion Recognition From Speech (V1.0)
 
-<p align="justify">The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.</p>
+<div align="justify">The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.</div>
 ![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)
 
 # Motivation 
