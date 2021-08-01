@@ -146,27 +146,91 @@ To download and run my google colab file 1130532_ResearchMethodology_Project_Fin
 * Extract the downloaded data from the above given links
 * Once the data is extracted just use my code and pass the proper path information to the functions. 
 * These paths are datapaths, csv file path and paths where reults are stored. 
-* Below given are snnipets of code where proper path information needs to be given.
+* Correct path information needs to be given in the functions ravdess_data(), crema_data(), tess_data(), saveee_data(), fetch_data(), Audio_features_extract(),    audio_features_final(), emotion_recognition_model(), test_realtime(), evaluate_model(), unknown_audio() and diff_lang_test()
+* Below given are snnipets of code where proper path information needs to be given for the above given functions.
    * ```
-      ravdess = "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"
+     ravdess = "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"
      ```
    * ```
-      crema = "/content/drive/MyDrive/Audiofiles/AudioWAV/"
+     crema = "/content/drive/MyDrive/Audiofiles/AudioWAV/"
      ```
    * ```
-      crema = "/content/drive/MyDrive/Audiofiles/AudioWAV/"
+     tess = "/content/drive/MyDrive/Audiofiles/TESS Toronto emotional speech set data/"
      ```
-   
-   *
-   *
-     
-
-     
-* Changes paths and give appropriate paths in the functions ravdess_data(), crema_data(), tess_data(), saveee_data(), fetch_data(), Audio_features_extract(),     
-  audio_features_final(), emotion_recognition_model(), test_realtime(), evaluate_model(), unknown_audio() and diff_lang_test()
-* If one dosent want to train the model just test the model then they can use the model file "emotion-recognition.hdf5", change paths in test_realtime() function   and they can test the model. 
-* If you want to develop or implement or setupt at the whole code then as mentioned give proper paths and run all the functions its done.
-* The main() function does all the work of training the model and evaluating the model. Once the main function completes running the model is file is generated     and can used for real time testing.
+   * ```
+     savee = "/content/drive/MyDrive/Audiofiles/ALL/"
+     ```
+   * ```
+     final_combined.to_csv("/content/drive/MyDrive/preprocesseddata.csv",index=False,header=True)
+     ```
+   * ```
+     Features.to_csv('/content/drive/MyDrive/Audiofiles/Audio_features_All_pr.csv',index=False)
+     ```
+   * ```
+     df = additional_preprocess("/content/drive/MyDrive/Audiofiles/Audio_features_All_pr.csv")
+     ```
+   * ```
+     filepath = "/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5"
+     ```
+   * ```
+     res_model = load_model("/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5")
+     ```
+   * ```
+     os.chdir('/content/drive/MyDrive/Audiofiles/realtimetested')
+     ```
+   * ```
+     np.save('/content/drive/MyDrive/Audiofiles/realtimetested/audiorec{}.npy'.format(len(files)),audio)
+     ```
+   * ```
+     plt.savefig("audiorec{}.png".format(len(files)))
+     ```
+   * ```
+     df["path"][i] = '/content/drive/MyDrive/Audiofiles/realtimetested/audiorec{}.npy'.format(len(files))
+     ```
+   * ```
+     df.to_csv('/content/drive/MyDrive/Audiofiles/realtimetested/real_time_predicted_audio_features.csv', mode='a', index=False)
+     ```
+   * ```
+     model = load_model("/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5")
+     ```
+   * ```
+     path = '/content/drive/MyDrive/Audiofiles/realtimetested/testing on sample voices/'
+     ```
+   * ```
+     Features.to_csv('/content/drive/MyDrive/Audiofiles/realtimetested/unkonwaudio.csv',index=False)  
+     ```
+   * ```
+     df = pd.read_csv('/content/drive/MyDrive/Audiofiles/realtimetested/unkonwaudio.csv')
+     ```
+   * ```
+     res_model = load_model("/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5")
+     ``` 
+* So once the path information is given correctly its time to run the functions, run all the fuctions in the same sequence given in my colab file.
+* If one dosent want to train the model just test the model then they can use the model file "emotion-recognition.hdf5", change the paths in test_realtime()
+function and they can test the model. 
+   * Following path needs to be changed:
+   * ```
+     res_model = load_model("/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5")
+     ```
+   * ```
+     os.chdir('/content/drive/MyDrive/Audiofiles/realtimetested')
+     ```
+   * ```
+     np.save('/content/drive/MyDrive/Audiofiles/realtimetested/audiorec{}.npy'.format(len(files)),audio)
+     ```
+   * ```
+     plt.savefig("audiorec{}.png".format(len(files)))
+     ```
+   * ```
+     df["path"][i] = '/content/drive/MyDrive/Audiofiles/realtimetested/audiorec{}.npy'.format(len(files))
+     ```
+   * ```
+     df.to_csv('/content/drive/MyDrive/Audiofiles/realtimetested/real_time_predicted_audio_features.csv', mode='a', index=False)
+     ```
+* If you want to develop or implement or setupt the whole code then as mentioned give proper paths and run all the functions its done.
+* Check out my colab file to see the time required by the individual process to complete.
+* The main() function does all the work of training the model and evaluating the model. Once the main function completes running the model is file is generated and can used for real time testing.
+* This is all about installation, building the model and feature extraction are one time process, once completed model is deployed in real time enviourment for testing and using the model for recognizing emotions from speech.
 
 # usage 
 * Once the model is trained and model file is generated one can use the test_realtime() function, this function invokes the microphone of the user records the       speech of the user, extracts the audio features and passes it to the emotion recognition model, then model predicts the emotions and displays it to the use.
