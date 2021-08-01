@@ -315,6 +315,16 @@ function and they can test the model.
    * If some one wants to used my trained model file directly then no need to run the main() function just run the above given two function to test in the real time enviourment.
    * Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two functions are dependent on them.
    * Make sure all functions are called properly as mentioned in my colab file 
+   * Additionally for my research work I carried on unkown sample data in different languages. 
+   * So you can do if you want test on unkown samples by downloading additional data from this link "https://superkogito.github.io/SER-datasets/"
+   * You will require to preprocess the data then you can use my get_features_recorded(audio,sr) function to get the audio features then pass the audio features to the model to predict the outcome.
+   * I have already downloaded the few audio samples for testing on different voices and data is available on my google drive link, please sendme mail to access the data I will give acccess to the google drive.
+   * For my custom data in different languages I have used below functions to test the emotion recognition models.
+     ```
+     def unknown_audio()
+     def diff_lang_test()
+     '''
+   * Whenever using the code make sure the function used inside the fnctions are called prior to executing the required function and all functions are executed in a proper sequence.
    
 # Support / Contact details
 
