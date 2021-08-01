@@ -39,38 +39,38 @@
 
 # Dataset description
 
-<p align="justify">I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.</p><br>
-1) Ryerson Audio Visual Database of Emotional Speech and Song (Ravdess) dataset description:
+<p align="justify">I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.</p>
+
+1) Ryerson Audio Visual Database of Emotional Speech and Song (Ravdess) dataset description:<br>
    Dataset link to download: "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"<br>
    Dataset contains sub folders and file names as example in numbers format 03-01-01-01-01-01-01.wav.<br>
    Actor (01 to 24. Odd numbered actors are male, even numbered actors are female).<br>
-   So based on the number there is a identifier for each number and its meaning are as follows:<br>
+   So based on the number there is a identifier for each number and its meaning are as follows:
    * Modality (01 = full-AV, 02 = video-only, 03 = audio-only).
    * Vocal channel (01 = speech, 02 = song).
    * Emotion (01 = neutral, 02 = calm, 03 = happy, 04 = sad, 05 = angry, 06 = fearful, 07 = disgust, 08 = surprised).
    * Emotional intensity (01 = normal, 02 = strong). NOTE: There is no strong intensity for the 'neutral' emotion.
    * Statement (01 = "Kids are talking by the door", 02 = "Dogs are sitting by the door").
-   * Repetition (01 = 1st repetition, 02 = 2nd repetition).<br>
-   Therefore file 03-01-01-01-01-01-01.wav can be deduced as 03=audio-only, 01=speech, 01=neutral, 01=normal, 01=statement kids and 01=1st repetition.<br>
+   * Repetition (01 = 1st repetition, 02 = 2nd repetition).
+   * Therefore file 03-01-01-01-01-01-01.wav can be deduced as 03=audio-only, 01=speech, 01=neutral, 01=normal, 01=statement kids and 01=1st repetition.
    
-2) Crowd sourced Emotional Mutimodal Actors Dataset (CREMA-D) dataset description:
+2) Crowd sourced Emotional Mutimodal Actors Dataset (CREMA-D) dataset description:<br>
    Dataset link to download: "https://www.kaggle.com/ejlok1/cremad" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/AudioWAV/"<br>
    The format of files is 1001_DFA_ANG_XX.wav, where ANG stands for angry emotion.<br> 
    Similarly different emotion mappings are as follows:<br>
    {'SAD':'sad','ANG':'angry','DIS':'disgust','FEA':'fear','HAP':'happy','NEU':'neutral'}
    
-3) Toronto emotional speech set (Tess) dataset description:
+3) Toronto emotional speech set (Tess) dataset description:<br>
    Dataset link to download: "https://www.kaggle.com/ejlok1/toronto-emotional-speech-set-tess" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/TESS Toronto emotional speech set data/"<br>
-   <p align="Justify">There are folders in format OAF_angry, OAF_neural, OAF_disgust, YAF_sad and so on, where name after the underscore of the folder name       
-   contains the emotion information, so the name after the underscore of the folder name is taken and files residing insider the folders are labeled accordingly.    </p>
+   There are folders in format OAF_angry, OAF_neural, OAF_disgust, YAF_sad and so on, where name after the underscore of the folder name contains the emotion   information, so the name after the underscore of the folder name is taken and files residing insider the folders are labeled accordingly.
 
-4) Surrey Audio Visual Expressed Emotion (Savee) dataset description:
+4) Surrey Audio Visual Expressed Emotion (Savee) dataset description:<br>
    Dataset link to download: "https://www.kaggle.com/ejlok1/surrey-audiovisual-expressed-emotion-savee" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/ALL/"<br>
-   <p align="justify">The files are in a format DC_a01.wav where a single character contains the emotion information , for example character 'a' after underscore    in the file name "DC_a01.wav" means emotion is angry.</p><br>
+   The files are in a format DC_a01.wav where a single character contains the emotion information , for example character 'a' after underscore    in the file name "DC_a01.wav" means emotion is angry.<br>
    Similarly different emotion mappings are as follows:<br>
    {'a':'anger','d':'disgust','f':'fear','h':'happiness','n':'neutral','sa':'sadness','su':'surprise'}
 
@@ -88,7 +88,8 @@ def calc_time(func):
 
 # Description of important functions present in code (Model design and evaluation):
 
-<p align="justify">There are many functions in the program as functional programming style is used. Here I am going to describe few important functions which call other functions inside the functions and generate files and results. Detailed description of each function and its use can be found in code.
+<p align="justify">There are many functions in the program as functional programming style is used. Here I am going to describe a few important functions which call other functions inside the functions and generate files and results. Detailed description of each function and its use can be found in the code file.</p>
+
 * Audio_features_extract() this function is used to extract audio features and generates a csv file at path "/content/drive/MyDrive/Audiofiles         
   /Audio_features_All_pr.csv" which contains audio features and their respective label information.
 * Below given image shows snapshot of the csv file, the file has a total of 33954 rows × 179 columns.
@@ -101,20 +102,20 @@ def calc_time(func):
   checkpoint which gives highest validation accuracy, the best model is saved for that epoch or checkpoint at path "/content/drive/ MyDrive/Audiofiles/        
   emotionrecognition.hdf5", the model giving highest validation accuracy is only saved.
   ![model training snap shot](https://user-images.githubusercontent.com/13017779/127520834-e0b9fb86-2a60-4eed-a089-f28f5a028a48.png)
-</p>
 
 # Description of testing model in real time:
 
-<p align="justify">Once the model is build and training is completed the emotion recognition model can be loaded from the path "/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5" and tested for the given input speech.
+Once the model is build and training is completed the emotion recognition model can be loaded from the path "/content/drive/MyDrive/Audiofiles/emotion-recognition .hdf5" and can be tested for the given input speech in real time.
+
 * The data for real time model testing is recorded using the microphone.
 * The code to record audio speech using microphone is integrated from this link "https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_     colab/".
 * Then features are extracted from speech and passed to emotion recognition model which predicts one of the six emotions.
 * Below figure shows the audio waveform and output of the emotion recognition model. 
  ![realtimeresult](https://user-images.githubusercontent.com/13017779/127523138-12df54f8-6af3-4907-9e80-56354bba12b8.png)
-</p>
+
 
 # Results 
-<p align="justify">
+
 * Below figure shows the training, testing and validation accuracy achieved by the emotion recognition model.
   ![accuracy](https://user-images.githubusercontent.com/13017779/127524338-0209ab4e-eb82-4244-b519-e25cb4838859.png)
 * Below figure shows the classification report and it can be seen in the report that for all the classes the value is greater than 0.5 which means the model can   
@@ -134,7 +135,6 @@ def calc_time(func):
   ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
 * Below figures shows comparison of my model with other authors who worked previously in this area of emotion recognition from speech.
   ![comparison](https://user-images.githubusercontent.com/13017779/127533006-fac626bf-8bda-4bac-bbbb-fb72ef291f0a.png)
-</p>
 
 # Installation 
 
