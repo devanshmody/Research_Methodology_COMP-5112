@@ -355,7 +355,6 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
-[6] https://librosa.org/doc/main/feature.html<br>
 
 # License 
 
@@ -363,7 +362,7 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 
 # Project Status
 
-Emotion recognition model is ready and can be used in real time. The ipynb file can be downloaded and used by providing necesarry path changes. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.
+<p align="justify">Emotion recognition model is finished and its ready and can be used in real time. The ipynb file can be downloaded and used by providing neccesary path changes as mentioned in installation and usage sections. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.
 
 
 
