@@ -108,7 +108,7 @@ def calc_time(func):
 Once the model is build and training is completed the emotion recognition model can be loaded from the path "/content/drive/MyDrive/Audiofiles/emotion-recognition .hdf5" and can be tested for the given input speech in real time.
 
 * The data for real time model testing is recorded using the microphone.
-* The code to record audio speech using microphone is integrated from this link "https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_ colab/".
+* The code to record audio speech using microphone is integrated from the link    "https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/".
 * Then features are extracted from speech and passed to emotion recognition model which predicts one of the six emotions.
 * Below figure shows the audio waveform and output of the emotion recognition model. 
  ![realtimeresult](https://user-images.githubusercontent.com/13017779/127523138-12df54f8-6af3-4907-9e80-56354bba12b8.png)
@@ -119,12 +119,14 @@ Once the model is build and training is completed the emotion recognition model 
 * Below figure shows the training, testing and validation accuracy achieved by the emotion recognition model.
   ![accuracy](https://user-images.githubusercontent.com/13017779/127524338-0209ab4e-eb82-4244-b519-e25cb4838859.png)
 * Below figure shows the classification report and it can be seen in the report that for all the classes the value is greater than 0.5 which means the model can predict the emotions accuratly to some extent. If the value is equal to 1.0 for all clases then it means model can predict accurrately always given the input speech. But its diffcult to achieve real time prediction and 100% accuracy on real time envoiurment as there is noise and many other factors which can affect the output. Given a challenge it can overcomed by training with big set of data in different languages to develop a universal model.
+  
   ![classification](https://user-images.githubusercontent.com/13017779/127525847-6d2816a7-2e8b-4a3a-8385-e9c7a63bb870.png)
 * The 0,1,2,3,4,5 in classification report resembles to different emotions which can be decoded from below image.
   ![emotionsmapping](https://user-images.githubusercontent.com/13017779/127526209-2d8748ca-2d99-4f70-ae11-1da5371cce61.png)
 * Below figure shows output of confusion matrix.<br>
   ![confumatrix](https://user-images.githubusercontent.com/13017779/127526415-1aca3e8f-32f7-44ac-bf34-fea0fd412209.png)
 * Below figure shows the training loss and accuracy curves, despite the model giving the training accuracy of 100%, validation and testing accuracy is near to 75%-76%, my model gives the highest accuracy when compared to the authors who previously carried out the research work in this area.
+
   ![curves](https://user-images.githubusercontent.com/13017779/127526942-9432d473-e6cc-4ef6-9a77-958ea56f3af0.png)
 * Additionally to check wheather the model can work for all types of voices and on unlabeled data a test was carried out using combination of different voices and unlabled data. Below figure shows the results.
   ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
@@ -134,6 +136,32 @@ Once the model is build and training is completed the emotion recognition model 
 # Installation 
 
 To download and run my google colab file 1130532_ResearchMethodology_Project_Final.ipynb following changes need to be made:
+* Frist and foremost make sure all neccessary libraries mentioned above are installed.
+* To install any library in the computer machine just use command pip install library name. 
+* Then install the data from the following links:
+   * "https://www.kaggle.com/ejlok1/cremad"
+   * "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio"
+   * "https://www.kaggle.com/ejlok1/surrey-audiovisual-expressed-emotion-savee"
+   * "https://www.kaggle.com/ejlok1/toronto-emotional-speech-set-tess"
+* Extract the downloaded data from the above given links
+* Once the data is extracted just use my code and pass the proper path information to the functions. 
+* These paths are datapaths, csv file path and paths where reults are stored. 
+* Below given are snnipets of code where proper path information needs to be given.
+   * ```
+      ravdess = "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"
+     ```
+   * ```
+      crema = "/content/drive/MyDrive/Audiofiles/AudioWAV/"
+     ```
+   * ```
+      crema = "/content/drive/MyDrive/Audiofiles/AudioWAV/"
+     ```
+   
+   *
+   *
+     
+
+     
 * Changes paths and give appropriate paths in the functions ravdess_data(), crema_data(), tess_data(), saveee_data(), fetch_data(), Audio_features_extract(),     
   audio_features_final(), emotion_recognition_model(), test_realtime(), evaluate_model(), unknown_audio() and diff_lang_test()
 * If one dosent want to train the model just test the model then they can use the model file "emotion-recognition.hdf5", change paths in test_realtime() function   and they can test the model. 
