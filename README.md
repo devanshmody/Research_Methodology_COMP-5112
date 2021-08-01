@@ -343,7 +343,7 @@ For access to my google drive to see the setup of the whole project mail me on g
 
 # How to contribute
 
-<p align="justify">One can contribute by extracting features from different auido files the code for extracting features can be used from my ipynb file, different dataset may reqire different data preprocessing so one also write a function for data preprocessing and send me both prerporcessing code and csv file, so I can integrate both data preprocessing function and csv file with my csv file Audio_features_All_pr.csv. Additionally I am planning to build three model audio segmentation model, facial emotion recognition model and textual model so one can contribute by writing the function for the same and integrate it. Send me a git merge request to integrate code or contact me so we can check the integrity of code and combine the code.</p>
+<p align="justify">One can contribute by extracting features from different auido files the code for extracting features can be used from my ipynb file, different dataset may reqire different data preprocessing so one also write a function for data preprocessing and send me both prerporcessing code and csv file, so I can integrate both data preprocessing function and csv file with my csv file Audio_features_All_pr.csv. Additionally I am planning to build three model audio segmentation model, facial emotion recognition model and textual model so one can contribute by writing the function for the same and integrate it. Send me a git merge request to integrate code or contact me so we can check the integrity of code and combine the code. One can also branch out create their own branch and then we can merge the branch. Additionaly one can also fork the repository.</p>
 
 # Authors / Acknowledgements
 
@@ -351,7 +351,8 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 
 # References
 
-[1] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review of Physical and Perceptual Feature Extraction Techniques for Speech, Music and Environmental Sounds”, Appl. Sci. 2016.[2] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.<br>
+[1] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review of Physical and Perceptual Feature Extraction Techniques for Speech, Music and    Environmental Sounds”, Appl. Sci. 2016.<br>
+[2] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.<br>
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
@@ -362,13 +363,4 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 
 # Project Status
 
-<p align="justify">Emotion recognition model is finished and its ready and can be used in real time. The ipynb file can be downloaded and used by providing neccesary path changes as mentioned in installation and usage sections. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.
-
-
-
-
-
-
-
-
-
+<p align="justify">Emotion recognition model is finished and its ready and can be used in real time. The ipynb file can be downloaded and used by providing neccesary path changes as mentioned in installation and usage sections. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.</p>
