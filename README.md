@@ -1,7 +1,8 @@
 # Emotion Recognition From Speech (V1.0)
 
-The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.
-![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)</p>
+<p align="justify">The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.</p>
+
+![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)
 
 # Motivation 
 
@@ -38,7 +39,7 @@ The understanding of emotions from voice by a human brain are normal instincts o
 
 # Dataset description
 
-<p align="justify">I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.<br>
+<p align="justify">I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.</p><br>
 1) Ryerson Audio Visual Database of Emotional Speech and Song (Ravdess) dataset description:
    Dataset link to download: "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"<br>
@@ -63,15 +64,15 @@ The understanding of emotions from voice by a human brain are normal instincts o
 3) Toronto emotional speech set (Tess) dataset description:
    Dataset link to download: "https://www.kaggle.com/ejlok1/toronto-emotional-speech-set-tess" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/TESS Toronto emotional speech set data/"<br>
-   There are folders in format OAF_angry, OAF_neural, OAF_disgust, YAF_sad and so on, where name after the underscore of the folder name contains the emotion        information, so the name after the underscore of the folder name is taken and files residing insider the folders are labeled accordingly.
+   <p align="Justify">There are folders in format OAF_angry, OAF_neural, OAF_disgust, YAF_sad and so on, where name after the underscore of the folder name       
+   contains the emotion information, so the name after the underscore of the folder name is taken and files residing insider the folders are labeled accordingly.    </p>
 
 4) Surrey Audio Visual Expressed Emotion (Savee) dataset description:
    Dataset link to download: "https://www.kaggle.com/ejlok1/surrey-audiovisual-expressed-emotion-savee" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/ALL/"<br>
-   The files are in a format DC_a01.wav where a single character contains the emotion information , for example character 'a' after underscore in the file name      "DC_a01.wav" means emotion is angry.<br>
+   <p align="justify">The files are in a format DC_a01.wav where a single character contains the emotion information , for example character 'a' after underscore    in the file name "DC_a01.wav" means emotion is angry.</p><br>
    Similarly different emotion mappings are as follows:<br>
    {'a':'anger','d':'disgust','f':'fear','h':'happiness','n':'neutral','sa':'sadness','su':'surprise'}
-</p>
 
 # Universal decorator fucntion to calculate total time
 ```
