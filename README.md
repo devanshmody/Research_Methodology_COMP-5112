@@ -1,15 +1,15 @@
 # Emotion Recognition From Speech (V1.0)
 
-The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.
- ![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)
+<p align="justify">The understanding of emotions from voice by a human brain are normal instincts of human beings, but automating the process of emotion recognition from speech without referring any language or linguistic information remains an uphill grind. In the research work presented based on the input speech, I am trying to predict one of the six types of emotions (sad, neutral, happy, fear, angry, disgust). The diagram given below explain how emotion recognition from speech works. The audio features are extracted from input speech, then those features are passed to the emotion recognition model which predicts one of the six emotions for the given input speech.</p>
+![Working Of Emotion Recgnition From Speech](https://user-images.githubusercontent.com/13017779/127468882-130282fb-9424-4366-a656-00c040232940.png)
 
 # Motivation 
 
-Most of the smart devices or voice assistants or robots exsisting in the world are not smart enough to understand the emotions. They are just like command and follow devices they have no emotional intelligence. When people are talking to each other based on the voice they understand situation and react to it, for instance if someone is angry then other person will try to clam him by conveying in soft tone, these kind of harmonic changes are not possible with smart devices or voice assistants as they lack emtional intelligence. So adding emotions and making devices understand emotions will take them one step further to human like intelligence.
+<p align="justify">Most of the smart devices or voice assistants or robots exsisting in the world are not smart enough to understand the emotions. They are just like command and follow devices they have no emotional intelligence. When people are talking to each other based on the voice they understand situation and react to it, for instance if someone is angry then other person will try to clam him by conveying in soft tone, these kind of harmonic changes are not possible with smart devices or voice assistants as they lack emtional intelligence. So adding emotions and making devices understand emotions will take them one step further to human like intelligence.</p>
 
 # Application
 
-There are tonnes of applicates based on one can imagine. Few applications based on my thinking are human computer interaction using voice, home automation,  anger/stress management by decoding emotions from voice, emotion recognition can help in detecting fear and cops can used this system to check if dialer is feared by some one or its just a normal call to register a complain, Marketing companies can use emotions to sell products based on user mood, autonomus vehicles can detect user emotion and adjust the speed of vehicles, It can help in solving psychological or depression problems. These are few applications according to me but there can be many more as voice based systems are increasing, even voice bsed chatting is common on social media platforms like clubhouse, discord, twitch, and others.
+<p align="justify">There are tonnes of applicates based on one can imagine. Few applications based on my thinking are human computer interaction using voice, home automation,  anger/stress management by decoding emotions from voice, emotion recognition can help in detecting fear and cops can used this system to check if dialer is feared by some one or its just a normal call to register a complain, Marketing companies can use emotions to sell products based on user mood, autonomus vehicles can detect user emotion and adjust the speed of vehicles, It can help in solving psychological or depression problems. These are few applications according to me but there can be many more as voice based systems are increasing, even voice bsed chatting is common on social media platforms like clubhouse, discord, twitch, and others.</p>
 
 # Libraries and coding language used for the project
 
@@ -38,7 +38,7 @@ There are tonnes of applicates based on one can imagine. Few applications based 
 
 # Dataset description
 
-I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.<br>
+<p align="justify">I have used four datasets and all four datasets are freely available to downloaded from kaggle website. So I have downloaded the data, extracted and stored in my google drive.<br>
 1) Ryerson Audio Visual Database of Emotional Speech and Song (Ravdess) dataset description:
    Dataset link to download: "https://www.kaggle.com/uwrfkaggler/ravdess-emotional-speech-audio" <br>
    Dataset stored on google drive at path: "/content/drive/MyDrive/Audiofiles/audio_speech_actors_01-24/"<br>
@@ -71,6 +71,7 @@ I have used four datasets and all four datasets are freely available to download
    The files are in a format DC_a01.wav where a single character contains the emotion information , for example character 'a' after underscore in the file name      "DC_a01.wav" means emotion is angry.<br>
    Similarly different emotion mappings are as follows:<br>
    {'a':'anger','d':'disgust','f':'fear','h':'happiness','n':'neutral','sa':'sadness','su':'surprise'}
+</p>
 
 # Universal decorator fucntion to calculate total time
 ```
@@ -86,7 +87,7 @@ def calc_time(func):
 
 # Description of important functions present in code (Model design and evaluation):
 
-There are many functions in the program as functional programming style is used. Here I am going to describe few important functions which call other functions inside the functions and generate files and results. Detailed description of each function and its use can be found in code.
+<p align="justify">There are many functions in the program as functional programming style is used. Here I am going to describe few important functions which call other functions inside the functions and generate files and results. Detailed description of each function and its use can be found in code.
 * Audio_features_extract() this function is used to extract audio features and generates a csv file at path "/content/drive/MyDrive/Audiofiles         
   /Audio_features_All_pr.csv" which contains audio features and their respective label information.
 * Below given image shows snapshot of the csv file, the file has a total of 33954 rows × 179 columns.
@@ -99,17 +100,21 @@ There are many functions in the program as functional programming style is used.
   checkpoint which gives highest validation accuracy, the best model is saved for that epoch or checkpoint at path "/content/drive/ MyDrive/Audiofiles/        
   emotionrecognition.hdf5", the model giving highest validation accuracy is only saved.
   ![model training snap shot](https://user-images.githubusercontent.com/13017779/127520834-e0b9fb86-2a60-4eed-a089-f28f5a028a48.png)
+</p>
 
 # Description of testing model in real time:
 
+<p align="justify">Once the model is build and training is completed the emotion recognition model can be loaded from the path "/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5" and tested for the given input speech.
 * The data for real time model testing is recorded using the microphone.
 * The code to record audio speech using microphone is integrated from this link "https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_     colab/".
 * Then features are extracted from speech and passed to emotion recognition model which predicts one of the six emotions.
 * Below figure shows the audio waveform and output of the emotion recognition model. 
  ![realtimeresult](https://user-images.githubusercontent.com/13017779/127523138-12df54f8-6af3-4907-9e80-56354bba12b8.png)
+</p>
 
 # Results 
-* Below figure shows the training, testing and validation accuracy achieved by the emotion recognition model
+<p align="justify">
+* Below figure shows the training, testing and validation accuracy achieved by the emotion recognition model.
   ![accuracy](https://user-images.githubusercontent.com/13017779/127524338-0209ab4e-eb82-4244-b519-e25cb4838859.png)
 * Below figure shows the classification report and it can be seen in the report that for all the classes the value is greater than 0.5 which means the model can   
   predict the emotions accuratly to some extent. If the value is equal to 1.0 for all clases then it means model can predict accurrately always given the input   
@@ -118,18 +123,18 @@ There are many functions in the program as functional programming style is used.
   ![classification](https://user-images.githubusercontent.com/13017779/127525847-6d2816a7-2e8b-4a3a-8385-e9c7a63bb870.png)
 * The 0,1,2,3,4,5 in classification report resembles to different emotions which can be decoded from below image.
   ![emotionsmapping](https://user-images.githubusercontent.com/13017779/127526209-2d8748ca-2d99-4f70-ae11-1da5371cce61.png)
-* below figure shows output of confusion matrix.<br>
+* Below figure shows output of confusion matrix.<br>
   ![confumatrix](https://user-images.githubusercontent.com/13017779/127526415-1aca3e8f-32f7-44ac-bf34-fea0fd412209.png)
-* below figure shows the training loss and accuracy curves despite the model giving and training accuracy of 100%, training and testing accuracy is near to    
-  75%-76% but compared to the research work my model gives highest accuracy compared to those of the authors who carried out research work previously in this  
-  area.
+* Below figure shows the training loss and accuracy curves, despite the model giving the training accuracy of 100%, validation and testing accuracy is near to    
+  75%-76%, my model gives the highest accuracy when compared to the authors who previously carried out the research work in this area.
   ![curves](https://user-images.githubusercontent.com/13017779/127526942-9432d473-e6cc-4ef6-9a77-958ea56f3af0.png)
-* Additionally to check wheather the model can on all types of voices and on unlabeled data a test was carried out using combination of different voices and 
+* Additionally to check wheather the model can work for all types of voices and on unlabeled data a test was carried out using combination of different voices and 
   unlabled data. Below figure shows the results.
   ![unlabeltest](https://user-images.githubusercontent.com/13017779/127530261-ba33d4ea-640e-45ff-8bc9-7015eceb5e9f.png)
-* Below figures shows comparison of my model with other authors who worked previously in this area of emotion recognition from speech
+* Below figures shows comparison of my model with other authors who worked previously in this area of emotion recognition from speech.
   ![comparison](https://user-images.githubusercontent.com/13017779/127533006-fac626bf-8bda-4bac-bbbb-fb72ef291f0a.png)
-  
+</p>
+
 # Installation 
 
 To download and run my google colab file 1130532_ResearchMethodology_Project_Final.ipynb following changes need to be made:
