@@ -347,7 +347,7 @@ For access to my google drive to see the setup of the whole project mail me on g
 
 # Authors / Acknowledgements
 
-<p align="justify">I would like to thank Ricardo for providing javascript code to inovke mircophone of user from google colab cell. As google colab dosent support audio recording using microphone so a javacript function needs to be written to inovke microphone and record auido. I would also like to thank Fadi Badine my deep learning neural network model for emotion recognition is based on his model for automatic speech recognition.</p> 
+<p align="justify">I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/) for providing javascript code to inovke mircophone of user from google colab cell. As google colab dosent support audio recording using microphone so a javacript function needs to be written to inovke microphone and record auido. I would also like to thank [@Fadi Badine](https://keras.io/examples/audio/speaker_recognition_using_cnn/) my deep learning neural network model for emotion recognition is based on his model for automatic speech recognition.</p> 
 
 # References
 
@@ -355,9 +355,7 @@ For access to my google drive to see the setup of the whole project mail me on g
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
-[6] https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/<br>
-[7] https://keras.io/examples/audio/speaker_recognition_using_cnn/<br>
-[8] https://librosa.org/doc/main/feature.html<br>
+[6] https://librosa.org/doc/main/feature.html<br>
 
 # License 
 
