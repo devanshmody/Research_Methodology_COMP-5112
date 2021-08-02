@@ -6,7 +6,7 @@
 
 # Motivation 
 
-<p align="justify">Most of the smart devices or voice assistants or robots exsisting in the world are not smart enough to understand the emotions. They are just like command and follow devices they have no emotional intelligence. When people are talking to each other based on the voice they understand situation and react to it, for instance if someone is angry then other person will try to clam him by conveying in soft tone, these kind of harmonic changes are not possible with smart devices or voice assistants as they lack emtional intelligence. So adding emotions and making devices understand emotions will take them one step further to human like intelligence.</p>
+<p align="justify">Most of the smart devices or voice assistants or robots present in the world are not smart enough to understand the emotions. They are just like command and follow devices they have no emotional intelligence. When people are talking to each other based on the voice they understand situation and react to it, for instance if someone is angry then other person will try to clam him by conveying in soft tone, these kind of harmonic changes are not possible with smart devices or voice assistants as they lack emtional intelligence. So adding emotions and making devices understand emotions will take them one step further to human like intelligence.</p>
 
 # Application
 
