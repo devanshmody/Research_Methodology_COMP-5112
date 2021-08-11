@@ -374,4 +374,6 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 
 # Project Status
 
-<p align="justify">Emotion recognition model is finished and its ready and can be used in real time. The 1130532_ResearchMethodology_Project_Final.ipynb file can be downloaded and used by providing neccesary path changes as mentioned in installation and usage sections. I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.</p>
+<p align="justify">Emotion recognition model is finished and its ready and can be used in real time. 
+The 1130532_ResearchMethodology_Project_Final.ipynb file can be downloaded and used by providing neccesary path changes as mentioned in installation and usage sections. 
+I am looking forward to develop other models mentioned in road-map (future ideas) and integrate all those models with my current emotion recognition model.</p>
