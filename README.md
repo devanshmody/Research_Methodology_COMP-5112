@@ -317,8 +317,8 @@ function and they can test the model.
    * Make sure all functions are called properly as mentioned in my colab file 
    * Additionally for my research work I carried on unkown sample data in different languages. 
    * So you can do if you want test on unkown samples by downloading additional data from this link "https://superkogito.github.io/SER-datasets/"
-   * You will require to preprocess the data then you can use my get_features_recorded(audio,sr) function to get the audio features then pass the audio features to the model to predict the outcome.
-   * I have already downloaded the few audio samples for testing on different voices and data is available on my google drive link, please sendme mail to access the data I will give acccess to the google drive.
+   * You will require to preprocess the data then you can use my get_features_recorded(audio,sr) function to get the audio features then pass the audio features to the<p align="justify"> model to predict the outcome.
+   * I have already downloaded the few audio samples for testing on different voices and data is available on my google drive link, please sendme mail to access the data I will give acccess to the google dr</p>
    * For my custom data in different languages I have used below functions to test the emotion recognition models.
      ```
      def unknown_audio()
@@ -328,7 +328,7 @@ function and they can test the model.
 
 # Video on Installation / Usage
 
-Below given is the video on installation and usage of my project code in colab file. The video guides you by showing where to make path changes and how to install and run the code and test the code. The datasets link to download are already given above. I would request to read the installation and usage section and then watch this video so it will give a clear idea of the whole project and its working. click on the below youtube image to launch the video.<br>
+<p align="justify">Below given is the video on installation and usage of my project code in colab file. The video guides you by showing where to make path changes and how to install and run the code and test the code. The datasets link to download are already given above. I would request to read the installation and usage section and then watch this video so it will give a clear idea of the whole project and its working. click on the below youtube image to launch the video.</p>
 <a href="https://youtu.be/kjttI89pIrI"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 
 # Support / Contact details
@@ -361,6 +361,43 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
+
+
+
+[1] K. Sreenivasa Rao, Tummala Pavan Kumar, Kusam Anusha, Bathina
+Leela, Ingilela Bhavana and Singavarapu V.S.K. Gowtham, ”Emotion
+Recognition from Speech”, (IJCSIT) International Journal of Computer
+Science and Information Technologies, Vol. 3 (2) , 2012,3603-3607.
+[2] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion
+Recognition from Speech Using Deep Learning on Spectrograms”,
+INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.
+[3] Vladimir Chernykh and Pavel Prikhodko, ”Emotion Recognition From
+Speech With Recurrent Neural Networks”, arXiv:1701.08071v2 [cs.CL]
+5 Jul 2018.
+[4] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-
+gang Li, ”Learning Alignment for Multimodal Emotion Recognition
+from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.
+[5] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion
+Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.
+[6] Sabur Ajibola Alim and Nahrul Khair Alang Rashid, ”Some Commonly
+Speech Feature Feature Extraction Algorithms”. Published: December
+12 2018, DOI: 10.5772/intechopen.80419.
+[7] Oh Wook Kwon, Kwokleung Chan, Jiucang Hao and Te Won Lee,
+”Emotion Recognition by Speech Signals”, GENEVA, EUROSPEECH
+2003. .
+[8] K.V.Krishna Kishore and P.Krishna Satish, ”Emotion Recognition
+in Speech Using MFCC and Wavelet Features”, IEEE International
+Advance Computing Conference (IACC), 2013.
+[9] Panagiotis Tzirakis, Jiehao Zhang and Björn W. Schuller, ”END-TO-
+END SPEECH EMOTION RECOGNITION USING DEEP NEURAL
+NETWORKS”, IEEE International Advance Computing Conference
+(IACC), 2018.
+[10] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature
+selection for automatic emotion recognition from speech”, Information
+Processing and Management 45 (2009) 315–328.
+[11] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review
+of Physical and Perceptual Feature Extraction Techniques for Speech,
+Music and Environmental Sounds”, Appl. Sci. 2016.
 
 # License 
 
