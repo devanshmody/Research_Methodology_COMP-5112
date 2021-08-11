@@ -328,9 +328,8 @@ function and they can test the model.
 
 # Video on Installation / Usage
 
-Below given is the video on installation and usage of my project code in colab file. The video guides you by showing where to make path changes and how to install and run the code and test the code. The datasets link to download are already given above. I would request to read the installation and usage section and then watch this video so it will give a clear idea of the whole project and its working. 
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/kjttI89pIrI)
+Below given is the video on installation and usage of my project code in colab file. The video guides you by showing where to make path changes and how to install and run the code and test the code. The datasets link to download are already given above. I would request to read the installation and usage section and then watch this video so it will give a clear idea of the whole project and its working. click on youtube image to launch the video.
+<a href="https://youtu.be/kjttI89pIrI"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 
 # Support / Contact details
 
