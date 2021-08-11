@@ -330,8 +330,7 @@ function and they can test the model.
 
 Below given is the video on installation and usage of my project code in colab file. The video guides you by showing where to make path changes and how to install and run the code and test the code. The datasets link to download are already given above. I would request to read the installation and usage section and then watch this video so it will give a clear idea of the whole project and its working. 
 
-embed youtube video.
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/kjttI89pIrI)
 
 # Support / Contact details
 
