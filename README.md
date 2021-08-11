@@ -352,7 +352,7 @@ For access to my google drive to see the setup of the whole project mail me on g
 
 # Authors / Acknowledgements
 
-I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/) for providing javascript code to inovke mircophone of user from google colab cell. As google colab dosent support audio recording using microphone so a javacript function needs to be written to inovke microphone and record auido. I would also like to thank [@Fadi Badine](https://keras.io/examples/audio/speaker_recognition_using_cnn/) my deep learning neural network model for emotion recognition is based on his model for automatic speech recognition.
+<p align="justify">I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/) for providing javascript code to inovke mircophone of user from google colab cell. As google colab dosent support audio recording using microphone so a javacript function needs to be written to inovke microphone and record auido. I would also like to thank [@Fadi Badine](https://keras.io/examples/audio/speaker_recognition_using_cnn/) my deep learning neural network model for emotion recognition is based on his model for automatic speech recognition.</p>
 
 # References
 
