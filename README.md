@@ -339,7 +339,7 @@ Given below are few of my social media accounts where anyone can contact me.<br>
 <a href="https://www.youtube.com/channel/UCtc_46TMSXPUMpzVP0IAJUw"><img src="https://img.shields.io/badge/youtube-red?style=flat&logo=youtube&labelColor=red"></a>
 <a href="https://www.instagram.com/devansh_mody/?hl=en"><img src="https://img.shields.io/badge/instagram-purple?style=flat&logo=instagram&labelColor=pink"></a>
 <a href="https://devanshmody.blogspot.com/"><img src="https://img.shields.io/badge/My bloging website-yellow?style=flat&logo=blog&labelColor=lightyellow"></a>
-<br>One can also contact me by mail on my gmail id <devanshmody2017@gmail.com><br>
+<br>One can also contact me by email <img src="https://img.shields.io/badge/gmail%20id-devanshmody2017%40gmail.com-red"><br>
 For access to my google drive to see the setup of the whole project mail me on gmail id mentioned above access will be given to the selected people for some amount of time.
 
 # Road-map (future ideas)
