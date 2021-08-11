@@ -205,7 +205,7 @@ To download and run my google colab file 1130532_ResearchMethodology_Project_Fin
    * ```
      res_model = load_model("/content/drive/MyDrive/Audiofiles/emotion-recognition.hdf5")
      ``` 
-* So once the path information is given correctly its time to run the functions, run all the fuctions in the same sequence given in my colab file.
+* So once the path information is given correctly its time to run the functions, run all the fuctions in the same sequence given in my colab file 1130532_ResearchMethodology_Project_Final.ipynb.
 * If one dosent want to train the model just test the model then they can use the model file "emotion-recognition.hdf5", change the paths in test_realtime()
 function and they can test the model. 
    * Following path needs to be changed:
@@ -228,14 +228,14 @@ function and they can test the model.
      df.to_csv('/content/drive/MyDrive/Audiofiles/realtimetested/real_time_predicted_audio_features.csv', mode='a', index=False)
      ```
 * If you want to develop or implement or setupt the whole code then as mentioned give proper paths and run all the functions its done.
-* Check out my colab file to see the time required by the individual process to complete.
+* Check out my colab file 1130532_ResearchMethodology_Project_Final.ipynb to see the time required by the individual process to complete.
 * The main() function does all the work of training the model and evaluating the model. Once the main function completes running the model is file is generated and can used for real time testing.
 * This is all about installation, building the model and feature extraction are one time process, once completed model is deployed in real time enviourment for testing and using the model for recognizing emotions from speech.
 
 # usage 
 
-* As mentioned in the installation process, once libraries, datasets are downloaded, proper path information is given functions should be run in a sequence as mentioned in the colab file.
-* Following are the functions that required to run and the sequence is same as mentioned below and in the colab file
+* As mentioned in the installation process, once libraries, datasets are downloaded, proper path information is given functions should be run in a sequence as mentioned in the colab file 1130532_ResearchMethodology_Project_Final.ipynb.
+* Following are the functions that required to run and the sequence is same as mentioned below and in the colab file 1130532_ResearchMethodology_Project_Final.ipynb
 * Remeber that every function requires amount of time to complete the process so.
 * Following is the list of sequence of functions which are required to run after running the import libraries code cell section:
   * Universal python decorator function to calculate total time.
@@ -314,7 +314,7 @@ function and they can test the model.
      ```
    * If some one wants to used my trained model file directly then no need to run the main() function just run the above given two function to test in the real time enviourment.
    * Also if using google colab make sure the function which are called inside the audio_features_final() and realtime_tested() are executed in advance as these two functions are dependent on them.
-   * Make sure all functions are called properly as mentioned in my colab file 
+   * Make sure all functions are called properly as mentioned in my colab file 1130532_ResearchMethodology_Project_Final.ipynb
    * Additionally for my research work I carried on unkown sample data in different languages. 
    * So you can do if you want test on unkown samples by downloading additional data from this link "https://superkogito.github.io/SER-datasets/"
    * You will require to preprocess the data then you can use my get_features_recorded(audio,sr) function to get the audio features then pass the audio features to the<p align="justify"> model to predict the outcome.
@@ -361,43 +361,12 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
-
-
-
-[1] K. Sreenivasa Rao, Tummala Pavan Kumar, Kusam Anusha, Bathina
-Leela, Ingilela Bhavana and Singavarapu V.S.K. Gowtham, ”Emotion
-Recognition from Speech”, (IJCSIT) International Journal of Computer
-Science and Information Technologies, Vol. 3 (2) , 2012,3603-3607.
-[2] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion
-Recognition from Speech Using Deep Learning on Spectrograms”,
-INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.
-[3] Vladimir Chernykh and Pavel Prikhodko, ”Emotion Recognition From
-Speech With Recurrent Neural Networks”, arXiv:1701.08071v2 [cs.CL]
-5 Jul 2018.
-[4] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-
-gang Li, ”Learning Alignment for Multimodal Emotion Recognition
-from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.
-[5] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion
-Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.
-[6] Sabur Ajibola Alim and Nahrul Khair Alang Rashid, ”Some Commonly
-Speech Feature Feature Extraction Algorithms”. Published: December
-12 2018, DOI: 10.5772/intechopen.80419.
-[7] Oh Wook Kwon, Kwokleung Chan, Jiucang Hao and Te Won Lee,
-”Emotion Recognition by Speech Signals”, GENEVA, EUROSPEECH
-2003. .
-[8] K.V.Krishna Kishore and P.Krishna Satish, ”Emotion Recognition
-in Speech Using MFCC and Wavelet Features”, IEEE International
-Advance Computing Conference (IACC), 2013.
-[9] Panagiotis Tzirakis, Jiehao Zhang and Björn W. Schuller, ”END-TO-
-END SPEECH EMOTION RECOGNITION USING DEEP NEURAL
-NETWORKS”, IEEE International Advance Computing Conference
-(IACC), 2018.
-[10] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature
-selection for automatic emotion recognition from speech”, Information
-Processing and Management 45 (2009) 315–328.
-[11] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review
-of Physical and Perceptual Feature Extraction Techniques for Speech,
-Music and Environmental Sounds”, Appl. Sci. 2016.
+[6] K. Sreenivasa Rao, Tummala Pavan Kumar, Kusam Anusha, Bathina Leela, Ingilela Bhavana and Singavarapu V.S.K. Gowtham, ”Emotion Recognition from Speech”, (IJCSIT) International Journal of Computer Science and Information Technologies, Vol. 3 (2) , 2012,3603-3607.
+[7] Vladimir Chernykh and Pavel Prikhodko, ”Emotion Recognition From Speech With Recurrent Neural Networks”, arXiv:1701.08071v2 [cs.CL] 5 Jul 2018.
+[8] Sabur Ajibola Alim and Nahrul Khair Alang Rashid, ”Some Commonly Speech Feature Feature Extraction Algorithms”. Published: December 12 2018, DOI: 10.5772/intechopen.80419.
+[9] Oh Wook Kwon, Kwokleung Chan, Jiucang Hao and Te Won Lee, ”Emotion Recognition by Speech Signals”, GENEVA, EUROSPEECH 2003.
+[10] K.V.Krishna Kishore and P.Krishna Satish, ”Emotion Recognition in Speech Using MFCC and Wavelet Features”, IEEE International Advance Computing Conference (IACC), 2013.
+[11] Panagiotis Tzirakis, Jiehao Zhang and Björn W. Schuller, ”END-TO-END SPEECH EMOTION RECOGNITION USING DEEP NEURAL NETWORKS”, IEEE International Advance Computing Conference (IACC), 2018.
 
 # License 
 
