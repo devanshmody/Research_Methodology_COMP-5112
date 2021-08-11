@@ -356,12 +356,13 @@ I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/20
 
 # References
 
-[1] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review of Physical and Perceptual Feature Extraction Techniques for Speech, Music and    Environmental Sounds”, Appl. Sci. 2016.<br>
+[1] Francesc Alı́as, Joan Claudi Socoró and Xavier Sevillano, ”A Review of Physical and Perceptual Feature Extraction Techniques for Speech, Music and        
+    Environmental Sounds”, Appl. Sci. 2016.<br>
 [2] Kannan Venkataramanan and Haresh Rengaraj Rajamohan, ”Emotion Recognition from Speech”, arXiv:1912.10458v1 [cs.SD] 22 Dec 2019.<br>
 [3] Haiyang Xu, Hui Zhang, Kun Han, Yun Wang, Yiping Peng and Xian-gang Li, ”Learning Alignment for Multimodal Emotion Recognition from Speech”, arXiv:1909.05645v2 [cs.CL] 3 Apr 2020.<br>
 [4] Aharon Satt, Shai Rozenberg and Ron Hoory, ”Efficient Emotion Recognition from Speech Using Deep Learning on Spectrograms”, INTERSPEECH 2017, Stockholm, Sweden, August 20–24, 2017.<br>
 [5] Jia Rong, Gang Li and Yi Ping Phoebe Chen, ”Acoustic feature selection for automatic emotion recognition from speech”, Information Processing and Management 45 (2009) 315–328.<br>
-[6] K. Sreenivasa Rao, Tummala Pavan Kumar, Kusam Anusha, Bathina Leela, Ingilela Bhavana and Singavarapu V.S.K. Gowtham, ”Emotion Recognition from Speech”, (IJCSIT) International Journal of Computer Science and Information Technologies, Vol. 3 (2) , 2012,3603-3607.
+[6] K. Sreenivasa Rao, Tummala Pavan Kumar, Kusam Anusha, Bathina Leela, Ingilela Bhavana and Singavarapu V.S.K. Gowtham, ”Emotion Recognition from Speech”, (IJCSIT) International Journal of Computer Science and Information Technologies, Vol. 3 (2) , 2012,3603-3607.<br>
 [7] Vladimir Chernykh and Pavel Prikhodko, ”Emotion Recognition From Speech With Recurrent Neural Networks”, arXiv:1701.08071v2 [cs.CL] 5 Jul 2018.
 [8] Sabur Ajibola Alim and Nahrul Khair Alang Rashid, ”Some Commonly Speech Feature Feature Extraction Algorithms”. Published: December 12 2018, DOI: 10.5772/intechopen.80419.
 [9] Oh Wook Kwon, Kwokleung Chan, Jiucang Hao and Te Won Lee, ”Emotion Recognition by Speech Signals”, GENEVA, EUROSPEECH 2003.
