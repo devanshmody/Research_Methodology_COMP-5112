@@ -350,6 +350,10 @@ For access to my google drive to see the setup of the whole project mail me on g
 
 <p align="justify">One can contribute by extracting features from different auido files the code for extracting features can be used from my ipynb file, different dataset may reqire different data preprocessing so one also write a function for data preprocessing and send me both prerporcessing code and csv file, so I can integrate both data preprocessing function and csv file with my csv file Audio_features_All_pr.csv. Additionally I am planning to build three model audio segmentation model, facial emotion recognition model and textual model so one can contribute by writing the function for the same and integrate it. Send me a git merge request to integrate code or contact me so we can check the integrity of code and combine the code. One can also branch out create their own branch and then we can merge the branch. Additionaly one can also fork the repository.</p>
 
+# Google drive links
+Model file link: https://drive.google.com/file/d/1dGCxq08cyNYO86u_XePg7tQzerrjdEFM/view?usp=share_link
+Preprocessed dataset link: https://drive.google.com/file/d/17zqTlW2xqUJy1NA3fOBdXo43Ace4DruR/view?usp=share_link
+
 # Authors / Acknowledgements
 
 I would like to thank [@Ricardo]( https://ricardodeazambuja.com/deep_learning/2019/03/09/audio_and_video_google_colab/) for providing javascript code to inovke mircophone of user from google colab cell. As google colab dosent support audio recording using microphone so a javacript function needs to be written to inovke microphone and record auido. I would also like to thank [@Fadi Badine](https://keras.io/examples/audio/speaker_recognition_using_cnn/) my deep learning neural network model for emotion recognition is based on his model for automatic speech recognition.</p>
